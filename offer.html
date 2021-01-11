@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500;700&family=Roboto&family=Ruda:wght@400;700&display=swap" rel="stylesheet"> 
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<title>Специальное Предложение Роснефть</title>
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-PD9GH4Q');
+	</script>
+ <!-- End Google Tag Manager -->
+</head>
+<body id="body_offer">
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PD9GH4Q" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+  <div id="callback" class="modal_1">
+
+  <!-- Modal content -->
+  <div class="modal-content" id="modal_1">
+    <span class="close" id="close_1">&times;</span>
+    <p class="modal-text">Оператор позвонит Вам в течение 10 минут</p>
+    <input type="hidden" name="page_name" value="page_online" id="page_name">
+    <div class="inputs_2">
+    	<div class="input_line">
+    		<input type="text" placeholder="Иванов Иван Иванович" id="callback_name"><span class="input_name">Фамилия, имя, отчество</span>
+    	</div>
+    	<div class="input_line">
+    		<input type="text" placeholder="8 (---) --- -- --" id="callback_phone"><span class="input_name">Номер телефона</span>
+    	</div>
+    	<div class="input_line">
+    		<input type="text" placeholder="ivan@gmail.com" id="callback_email"><span class="input_name">e-mail адрес</span>
+    	</div>
+    	<div class="input_line">
+    		<input type="text" placeholder="-------------------" id="callback_inn"><span class="input_name">ИНН юридического лица</span>
+    	</div>
+    	<div class="input_line">
+    		<input type="text" placeholder="Московская область" id="callback_region"><span class="input_name">Регион присутствия</span>
+    	</div>
+    	<div class="form_result">
+    		<span class="callback_ajax_success">Заявка успешно отправлена!</span>
+    	</div>
+    	<button class="callback_btn" id="callback_ajax">Отправить</button>
+    </div>
+  </div>
+
+</div>
+ <div id="contract" class="modal_2">
+
+  <!-- Modal content -->
+  <div class="modal-content" id="modal_2">
+    <span class="close" id="close_2">&times;</span>
+    <p class="modal-text">Отправить данные для заключения договора</p>
+    <div class="inputs_2">
+    	<div class="input_line">
+    		<input type="text" placeholder="Иванов Иван Иванович" id="form_name"><span class="input_name">Фамилия, имя, отчество</span>
+    	</div>
+    	<div class="input_line">
+    		<input type="text" placeholder="8 (---) --- -- --" id="form_phone"><span class="input_name">Номер телефона</span>
+    	</div>
+    	<div class="input_line">
+    		<input type="text" placeholder="ivan@gmail.com" id="form_email"><span class="input_name">e-mail адрес</span>
+    	</div>
+    	<div class="input_line">
+    		<input type="text" placeholder="Наименование юр.лица" id="form_company_name"><span class="input_name">Наименование юр.лица</span>
+    	</div>
+    	<div class="input_line">
+    		<input type="text" placeholder="-------------------" id="form_inn"><span class="input_name">ИНН юридического лица</span>
+    	</div>
+    	<div class="input_line">
+    		<input type="text" placeholder="----------" id="expected"><span class="input_name">Ожидаемый объем</span>
+    	</div>
+    	<div class="input_line">
+    		<input type="text" placeholder="Московская область" id="form_region"><span class="input_name">Регион присутствия</span>
+    	</div>
+    	<div class="form_result">
+    		<span class="form_ajax_success">Заявка успешно отправлена!</span>
+    	</div>
+    	<button class="callback_btn" id="form_ajax">Отправить</button>
+    </div>
+  </div>
+
+</div>
+	<header class="header header_commercial header_offer">
+		<!--<div class="container">-->
+			<!--<div class="nav">-->
+				<div class="logo">
+					<img src="img/logo.png" alt="Роснефть">
+					<h1 class="special_offer">Специальное предложение</h1>
+				</div>
+				<div class="phone">
+					<div class="phone_logo">
+						<a href="tel:88002001070"><img src="img/phone.png"></a>
+					</div>
+					<div class="label_phone">
+						<p class="label">
+						Горячая линия
+						</p>
+						<p class="phone_number">
+						 <a href="tel:88002001070" id="phone_of">800 200 10 70</a>
+						</p>
+					</div>
+					<div class="call_button_div call_button_div_of">
+						<a href="#" class="call_button" id="call_button_id_offer">Заказать звонок</a>
+					</div>
+				</div>
+			<!--</div>-->
+		<!--</div>-->
+	</header>
+	<section class="features offer">
+		<div class="bg_offer_waves"></div>
+		<div class="container pos_rel_hook" id="header-mob">
+			<div class="features_label features_label_offfer">
+				<!--<p class="fl_1 fl_c_1"><a href="https://lk.rn-card.ru/Users/registrationcontract.aspx?mgr=com">Для компаний с большим автопарком</a></p><p></p>-->
+				<div class="card_com">
+					<img src="img/advantage_d.png" id="img_c_form" />
+					<a class="btn" target="_blank" id="contract_button_id">
+					Оставить заявку
+				    </a>
+				</div>
+				<p class="fl_2 fl_c_2 fl_of_2" id="fl_c_2_form"><span><a>Заполните форму для оформления топливной карты</a></span></p>
+				<div class="cards_c" id="contract_card">
+				<a><img src="img/advantage_d.png" class="card card_c card_of" alt="" data-aos="fade-left"data-aos-anchor="#example-anchor" data-aos-delay="400" data-aos-duration="1000"></a></div>
+			</div>
+			<div class="rules rules_of">
+				<a><div class="rule rule_1 rule_off" id="rule_click_1">
+					<div class="rule_text_off">
+						Заключение<br/> договора онлайн
+					</div>
+					<div class="rules_item_1_pic rule_item_1_offer"><img src="img/contract_item_offer.svg" id="rules_1"></div>
+				</div></a>
+				<a><div class="rule rule_1 rule_off rule_2_of" id="rule_click_2">
+					<div class="rule_text_off">
+						Для компаний с автопарком от 1 автомобиля
+					</div>
+					<div class="rules_item_2_pic rule_item_2_offer"><img src="img/car_offer.svg" id="rules_2"></div>
+				</div></a>
+					<a><div class="rule rule_1 rule_off rule_3_of" id="rule_click_3">
+					<div class="rule_text_off">
+						Максимум преимуществ<br/>корпоративного обслуживания
+					</div>
+					<div class="rules_item_3_pic rule_item_3_offer"><img src="img/handshake_offer.svg" id="rules_2"></div>
+				</div></a>
+					<a><div class="rule rule_1 rule_off" id="rule_click_4">
+					<div class="rule_text_off">
+						Бонусы при каждой заправке
+					</div>
+					<div class="rules_item_4_pic rule_item_4_offer"><img src="img/money-bag-of.svg" id="rules_2"></div>
+				</div></a>
+				<!--<a><div class="rule rule_3" id="rule_click_3">
+					<div class="rules_item_header">
+						Максимум преимуществ<br/>корпоративного обслуживания
+					</div>
+					<div class="rules_item_3_pic"><img src="img/handshake.svg"></div>
+				</div></a>-->
+				<!--<a><div class="rule rule_4" id="rule_click_4">
+					<div class="rules_item_header">
+						Выгода<br/>при каждой заправке
+					</div>
+					<div class="rules_item_4_pic"><img src="img/money-bag.svg"></div>
+				</div>	</a>-->															
+			</div>
+			<!--<div class="call_to_action" id=commercial_cad>
+				<a class="btn" target="_blank" id="contract_button_id_dt">
+					Оставить заявку
+				</a>
+				<p class="call_to_action_text text-white">
+				Отправьте заявку для оформления топливной карты
+				</p>
+			</div>-->
+		</div>
+	</section>
+	<section class="service commercial_s service_offer">
+		<div class="bg_offer_grad"></div>
+		<div class="service_label">
+			<p class="fl_1" id="fl_c_11"><a>Максимум преимуществ корпоративного обслуживания</a></p>
+			<p class="fl_2 fl_cs_2" id="fl_c_21"><a>Выгода при каждой заправке</a></p>
+			</div>
+		<div class="container_service pos_rel_hook">
+			<div class="leftside leftside_offer_1">
+				<div class="leftside_text leftside_offer" data-aos="fade-right">
+					<p>Владельцы топливной карты <b>Роснефть</b><br/>
+					теперь получают скидку до 4% на АЗС Роснефть</p>
+
+					<p>Акция действует по всей России за исключением АЗС Ямала, Дальнего востока и АЗС ВР в пределах МКАД</p>
+
+					<p>Заключайте коммерческий договор с РН-Карт и получаейте дополнительную скидку на дизельное топливо и бензины.</p>
+				</div>
+			</div>
+			<div class="map_service">
+				<div class="map">
+					<!--<div class="service_text">Санкт-Петербург<br/>Ленинградская область</div>-->
+					<div class="location_1_mob_c" data-aos="fade-right" data-aos-delay="100"><a href="https://www.rn-card.ru/promo/" target="_blank"><img src="img/map_point_offer_1.png"></a></div>
+					<div class="location_2_mob_c" data-aos="fade-right" data-aos-delay="200"><a href="https://www.rn-card.ru/promo/" target="_blank"><img src="img/map_point_offer_2.png"></a></div>
+					<div class="location_3_mob_c" data-aos="fade-right" data-aos-delay="300"><a href="https://www.rn-card.ru/promo/" target="_blank"><img src="img/map_point_offer_3.png"></a></div>
+					<div class="location_4_mob_c" data-aos="fade-right" data-aos-delay="300"><a href="https://www.rn-card.ru/promo/" target="_blank"><img src="img/map_point_offer_4.png"></a></div>
+					<div class="location_5_mob_c" data-aos="fade-right" data-aos-delay="300"><a href="https://www.rn-card.ru/promo/" target="_blank"><img src="img/map_point_offer_5.png"></a></div>
+					<!--<div class="service_text_of">Псковская область<br/>Новгородская область</div>-->
+				</div>
+			</div>
+			<div class="rightside">
+				<div class="partners">
+					<img src="img/rn_logo_contur.png" class="img1"><br/>
+				<img src="img/ptk.png" class="img2"><br/>
+				<img src="img/bashneft_offer.png" class="img3"><br/>
+				<img src="img/bp_offer.png" class="img4 img4_offer"><br/>
+			</div>
+			</div>
+			<!--<div class="call_to_action" id=commercial_cad>
+				<a class="btn">
+					Оставить заявку
+				</a>
+				<p class="call_to_action_text text-white">
+				Отправьте заявку для оформления топливной карты
+				</p>
+			</div>-->
+		</div>
+		<div class="container container_hook">
+			<div class="call_to_action call_to_action_off b-color-of">
+				<a class="btn b-color-ca2" href="https://lk.rn-card.ru/Users/registrationcontract.aspx?mgr=com" target="_blank">
+					Заключить договор
+				</a>
+				<p class="call_to_action_text text-white">
+				Получите топливную карту на самых выгодных условиях
+				</p>
+			</div>
+		</div>
+	</section>
+	<!--<section class="tariff">
+		<div class="t_container">
+			<div class="tariff_c"><a href="https://lk.rn-card.ru/Users/registrationcontract.aspx?mgr=com">Тариф “Региональный”<br/>Для локального бизнеса<br/>Преференции в рамках вашего региона</a></div>
+			<div class="tariff_c tariff_c_2"><a href="https://lk.rn-card.ru/Users/registrationcontract.aspx?mgr=com">Тариф “Транзитный”<br/>Для компаний, осуществляющих<br/> дальние перевозки</a></div>
+			<a id="t_button" href="https://lk.rn-card.ru/Users/registrationcontract.aspx?mgr=com" class="btn text-white" target="_blank">Заключить договор</a>
+		</div>
+	</section>-->
+	<section class="howto howto_c">
+		<div class="container_service">
+				<div class="call_to_action_2" id="block_call_button_id_mid">
+					<div class="call_button_div_с">
+						<a class="call_button" id="call_button_id_mid_of">Заказать звонок</a>
+					</div>
+				<p class="call_to_action_text_2">
+				Наш оператор перезвонит вам через 10 минут
+				</p>
+			</div>
+			<div class="howto_leftside howto_leftside_c howto_leftside_of">
+				<div class="howto_leftside_text howto_leftside_text_c">
+					<h3>Для получения<br/> топливной карты</h3>
+					<div class="steps">
+						<div class="steps_item steps_item_first steps_item_first_offer_hook" data-aos="fade-down">
+							<p class="steps_text">
+								<a id="contr_of">Заполните краткую форму</a> или <a id="short_from_link_of">закажите обратный звонок консультанта</a>
+							</p>
+						</div>
+						<div class="steps_item steps_item_second steps_item_second_c steps_item_first_offer_hook" data-aos="fade-down">
+							<p class="steps_text">
+								Заключите договор на оформление Топливной карты с 1 января 2021 по 31 марта 2021
+							</p>
+						</div>
+						<div class="steps_item steps_item_third steps_item_third_c steps_item_first_offer_hook" data-aos="fade-down">
+							<p class="steps_text">
+								Оформите необходимое количество виртуальных или пластиковых топливных карт
+							</p>
+						</div>
+						<div class="steps_item steps_item_forth steps_item_first_offer_hook" data-aos="fade-down">
+							<p class="steps_text">
+								Пополняйте баланс и управляйте топливными картами в личном кабинете или в приложении
+							</p>
+						</div>																		
+					</div>
+				</div>
+			<div class="t_container" id="t_container_mob">
+			<div class="tariff_of">Владельцы топливной карты Роснефть теперь получают скидку до 4% на АЗС Роснефть</div>
+			<div class="tariff_of tariff_black">Акция действует по всей России за исключением АЗС Ямала, Дальнего востока и АЗС ВР в пределах МКАД</div>
+			
+				<div class="card_mob card_mob_c"><a><img src="img/240x400-Rosneft-26.81-cut.png" class="card1" alt="Карта Роснефть" id="card_mob_c_form"></a>
+				<a href="https://lk.rn-card.ru/Users/registrationcontract.aspx?mgr=com" class="btn btn_dark_gray" target="_blank">Заключить договор</a>
+				</div>	
+
+			</div>
+			<div class="map_service map_service_c">
+				<div class="map map_c">
+					<div class="service_text"></div>
+					<div class="location_1_mob_c" data-aos="fade-right" data-aos-delay="100"><a href="https://www.rn-card.ru/promo/" target="_blank"><img src="img/map_point_offer_1.png"></a></div>
+					<div class="location_2_mob_c" data-aos="fade-right" data-aos-delay="200"><a href="https://www.rn-card.ru/promo/" target="_blank"><img src="img/map_point_offer_2.png"></a></div>
+					<div class="location_3_mob_c" data-aos="fade-right" data-aos-delay="300"><a href="https://www.rn-card.ru/promo/" target="_blank"><img src="img/map_point_offer_3.png"></a></div>
+					<div class="location_4_mob_c" data-aos="fade-right" data-aos-delay="300"><a href="https://www.rn-card.ru/promo/" target="_blank"><img src="img/map_point_offer_4.png"></a></div>
+					<div class="location_5_mob_c" data-aos="fade-right" data-aos-delay="300"><a href="https://www.rn-card.ru/promo/" target="_blank"><img src="img/map_point_offer_5.png"></a></div>
+				</div>
+
+			</div>
+			<div class="rightside mob_partners_of" id="mob-partners">
+				<div class="partners">
+					<img src="img/rn_logo_contur.png" class="img3">
+					<img src="img/ptk.png" class="img4">
+				</div>
+				<div class="partners">
+					<img src="img/bashneft_offer.png" class="img3">
+					<img src="img/bp_offer.png" class="img4">
+				</div>
+				</div>
+			</div>
+			
+		</div>
+	</section>
+	<section class="options options_c options_of">
+		<div class="bg_options_triangle"></div>
+		<div class="container" id="options_c_margin">
+		<div class="options_wrap">
+			<div class="options_item options_item_second" data-aos="zoom-out" data-aos-delay="200">
+				<p class="options_text">
+					Гибкая система тарификации
+				</p>
+			</div>
+			<div class="options_item options_item_third" data-aos="zoom-out" data-aos-delay="300">
+				<p class="options_text">
+					Оплачивайте топливо даже без подключения к сети Интернет
+				</p>
+			</div>
+			<div class="options_item options_item_first commercial_o_item_first offer_item_last" data-aos="zoom-out" data-aos-delay="100">
+				<p class="options_text">
+					Полный электронный документооборот по принципу единого окна
+				</p>
+			</div>
+		</div>
+
+		</div>
+		<div class="call_to_action_2" id="cad">
+			<a class="btn" target="_blank" id="contract_button_footer_c">
+					Отправить заявку</a>
+			<p class="call_to_action_text_2">
+				Заполнить заявку на оформление топливной карты
+			</p>
+
+		</div>
+			<!--<div class="extra_options" id="eo_mob">
+			<p class="eo_text">
+				Автопарк моей компании составляет менее 20 автомобилей
+			</p>
+			<a class="btn_eo" href="https://lk.rn-card.ru/promo/toplivo-online.aspx" target="_blank">
+				Перейти в раздел
+			</a>
+		</div>-->
+	</section>
+	<footer class="footer footer_hook">
+		<div class="container">
+			<div class="nav">
+				<div class="footer_links">
+					<p class="label">
+					<a href="https://www.rn-card.ru/politica_mobile/" target="_blank">Политика конфиденциальности</a>
+					<br/><br/>
+					<a href="https://www.rn-card.ru/" target="_blank">Сайт www.rn-card.ru</a>
+					<br/><br/>
+					<a href="https://www.rn-card.ru/services/virtualcard/" target="_blank">Мобильное приложение</a>
+					</p>	
+				</div>
+				<div class="phone" id="hook_footer">
+					<div class="phone_logo">
+						<a href="tel:88002001070"><img src="img/phone.png"></a>
+					</div>
+					<div class="label_phone">
+						<p class="label">
+						Горячая линия для владельцев топливных карт
+						</p>
+						<p class="phone_number">
+						 <a href="tel:88002001070">800 200 10 70</a>
+						</p>
+					</div>
+					<div class="call_button_div call_button_footer_of">
+						<a class="call_button" id="call_button_id_foter_footer">Заказать звонок</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+<script>
+  AOS.init();
+</script>
+<script src="js/script.js"></script>
+<script src="js/form_ajax.js"></script>
+</body>
+</html>
